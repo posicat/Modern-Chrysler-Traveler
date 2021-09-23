@@ -1,50 +1,60 @@
 # Modern-Chrysler-Traveler
-A replacement PCB and Code for the Traveler computer from the Chrysler Lebaron, adding new features while keeping the same asthetic.
+>A replacement PCB and Code for the Traveler computer from the Chrysler Lebaron, adding new features while keeping the same asthetic.
 
-PCB : 
+## Resources
+ Code : https://github.com/posicat/Modern-Chrysler-Traveler
+ PCB : https://oshwlab.com/posicat/modern-chrysler-traveler
 
-Goals of this Project:
-	Replicate original Traveler Functions
-		DTE (MI or KM)
-		ODO
-		ECO (MPG , L/100 km)
-		ECO AVG (MPG , L/100 km)
-		
-		Sequence : 
-			F 1-1 (No data)
-			0.0 MI ODO
-			0.0 AVG MPG ECO
-			0 MPG ECO
-			0 MI DTE
-			0:00 ET
-		
-	Add new Functions
+## Goals of this Project
+
+### Replicate original Traveler Functions
+
+    ODO (MI or KM)
+    ECO AVG (MPG , L/100 km)
+    ECO (MPG , L/100 km)
+    DTE (MI or KM)
+	??? Elapsed Travel
 	
-		MPG
-		Gal Remaining
-		Trip Mileage
+Sequence
+
+    F 1-1 (No data)
+    0.0 MI ODO
+    0.0 AVG MPG ECO
+	0 MPG ECO
+    0 MI DTE
+	0:00 ET
+	repeat
+
+### Add new Functions (possibilities)
+
+	Multiple Trip Mileage
+	Oil Change Mileage
+	Engine Temp
+	Trans Temp
+	Trip fuel use
+	
+### Interface for various Chrysler radios
+
+- Infinity I-III
+  - Front AUX jack
+  - Rear Bluetooth jack
+- "1.DiscUp" Radio
+  - Emulated CD Changer
+  - Selectable disk number for coexistance with changers.
+- "Other" type radio
+  - Find and figure out the 3rd radio type and implement interface
+	
+### Web Interface
+	To any engine PID 
+	To Traveler Data
+	For Radio settings
 		
-		Engine Temp
-		Trans Temp
-		
-	Radio Control
-		Aux Audio for Infinity I-III
-			2 inputs for front panel Aux, and Bluetooth Connections
-		Emulated CD Changer for 1.DiscUP Radio
-			Customizable Which DISC number so it can coexist with an existing CD changer
-			
-		Find and figure out the 3rd radio type for the other CD Changer??
-		
-		
-	Web Interface
-		To any engine PID 
-		To Traveler Data
-		For Radio settings
-		
-Links
-	CCD/PCI Interface board : https://www.tindie.com/products/boundarycondition/ccdpci-bus-transceiver-development-board/
-	MBUS Arduino : https://github.com/picohari/atmega128_alpine-mbus-emulator
-	Sequence : https://www.justanswer.com/car/1di0n-1990-chrysler-lebaron-convertable-evic-traveler.html
+## Links
+
+| CCD/PCI Interface board |https://www.tindie.com/products/boundarycondition/ccdpci-bus-transceiver-development-board/ |
+| MBUS Arduino |  https://github.com/picohari/atmega128_alpine-mbus-emulator |
+| MBUS Arduino |  https://github.com/Olstyle/MBus |
+| Sequence | https://www.justanswer.com/car/1di0n-1990-chrysler-lebaron-convertable-evic-traveler.html |
 	
 
 Keywords/Search Words
