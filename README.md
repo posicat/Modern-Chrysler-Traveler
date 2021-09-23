@@ -51,12 +51,14 @@ Sequence
 		
 ## Links
 
-| CCD/PCI Interface board |https://www.tindie.com/products/boundarycondition/ccdpci-bus-transceiver-development-board/ |
-| MBUS Arduino |  https://github.com/picohari/atmega128_alpine-mbus-emulator |
-| MBUS Arduino |  https://github.com/Olstyle/MBus |
-| Sequence | https://www.justanswer.com/car/1di0n-1990-chrysler-lebaron-convertable-evic-traveler.html |
+CCD/PCI Interface board https://www.tindie.com/products/boundarycondition/ccdpci-bus-transceiver-development-board/
+
+MBUS Arduino https://github.com/picohari/atmega128_alpine-mbus-emulator
+
+MBUS Arduino https://github.com/Olstyle/MBus
+
+Sequence https://www.justanswer.com/car/1di0n-1990-chrysler-lebaron-convertable-evic-traveler.html
 	
 
-Keywords/Search Words
-	Chrysler Infinity Radwood Radio AUX pinout pin-out DIN8 din-8 M-BUS CD player CD changer
-	LeBaron Traveler Computer Wifi ESP ESP8266 
+## Keywords/Search Words
+> Chrysler Infinity Radwood Radio AUX pinout pin-out DIN8 din-8 M-BUS CD player CD changer LeBaron Traveler Computer Wifi ESP ESP8266 
