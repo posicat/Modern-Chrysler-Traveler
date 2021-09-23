@@ -2,8 +2,8 @@
 >A replacement PCB and Code for the Traveler computer from the Chrysler Lebaron, adding new features while keeping the same asthetic.
 
 ## Resources
- Code : https://github.com/posicat/Modern-Chrysler-Traveler
- PCB : https://oshwlab.com/posicat/modern-chrysler-traveler
+ - Code : https://github.com/posicat/Modern-Chrysler-Traveler
+ - PCB : https://oshwlab.com/posicat/modern-chrysler-traveler
 
 ## Goals of this Project
 
@@ -20,18 +20,18 @@ Sequence
     F 1-1 (No data)
     0.0 MI ODO
     0.0 AVG MPG ECO
-	0 MPG ECO
+    0 MPG ECO
     0 MI DTE
-	0:00 ET
-	repeat
+    0:00 ET
+    repeat
 
 ### Add new Functions (possibilities)
 
-	Multiple Trip Mileage
-	Oil Change Mileage
-	Engine Temp
-	Trans Temp
-	Trip fuel use
+    Multiple Trip Mileage
+    Oil Change Mileage
+    Engine Temp
+    Trans Temp
+    Trip fuel use
 	
 ### Interface for various Chrysler radios
 
